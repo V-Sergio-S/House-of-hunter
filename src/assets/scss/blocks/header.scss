@@ -1,0 +1,21 @@
+.header {
+  color: transparent;
+}
+.header__inner {
+  width: 100%;
+  position: fixed;
+  padding: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 4;
+
+  @media screen and ( max-width: $laptop-bp) {
+    padding: 12px;
+    }
+    @media screen and ( max-width: $mobile-bp) {
+      padding: 5px;
+    }
+}

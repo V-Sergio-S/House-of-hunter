@@ -1,0 +1,14 @@
+.wrapp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &--fauna {
+    padding-bottom: 44px;
+  }
+  &--service {
+    padding-bottom: 80px;
+  }
+}

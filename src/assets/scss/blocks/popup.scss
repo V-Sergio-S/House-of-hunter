@@ -1,0 +1,68 @@
+
+.popup{
+  width: 80%;
+  height: 70%;
+  display: none;
+  padding: 60px 15px 15px 15px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, .6);
+  box-shadow: 0 13px 26px 0 rgba(0, 0, 0, .6);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+
+
+  z-index: 6;
+
+  @include breakpoint ($laptop-bp) {
+    top: 30%;
+    left: 25%;
+  }
+
+  @include breakpoint ($tablet-bp) {
+    top: 30%;
+    left: 20%;
+  }
+
+  @include breakpoint ($mobile-bp) {
+    top: 30%;
+    left: 8%;
+  }
+
+  &--show {
+    display: block;
+    margin: 0 15px;
+  }
+
+}
+
+.popup__title{
+  margin-bottom: 30px;
+  padding: 14px;
+
+  font-size: 36px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  color: $hover-active;
+}
+.popup__text{
+  margin-bottom: 14px;
+
+  font-size: 22px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+
+  color: $black;
+
+  &--phone{
+    padding: 14px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    color: $hover-active;
+  }
+}

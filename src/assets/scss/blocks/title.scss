@@ -1,0 +1,101 @@
+
+.title {
+  font-size: 8.2rem;
+  font-weight: 900;
+
+  @media screen and ( max-width: $laptop-bp) {
+    font-size: 6.2rem;
+  }
+  @media screen and ( max-width: $mobile-bp) {
+    font-size: 3.8rem;
+  }
+  @media screen and ( max-width: $tapik-bp) {
+    font-size: 2.5rem;
+  }
+
+  &--front-page {
+    position: relative;
+    display: inline;
+
+    color: $white;
+    line-height: 78%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: -44%;
+    height: 2px;
+
+    background-color: $white;
+
+    transform: translateX(-1px);
+    transition: all .6s ease;
+
+    @media screen and ( max-width: $mobile-bp) {
+      bottom: -47%;
+    }
+
+    @media screen and ( max-width: $tapik-bp) {
+      bottom: -53%;
+    }
+
+
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 19%;
+    left: 16px;
+    height: 2px;
+
+    background-color: $white;
+    transition: all .6s ease;
+
+    @media screen and ( max-width: $mobile-bp) {
+      left: 14px;
+    }
+
+    @media screen and ( max-width: $tapik-bp) {
+      top: 20%;
+      left: 7px;
+    }
+
+  }
+  }
+
+  &--wrapp {
+    color: #1B1C1E;
+    font-size: 60px;
+    text-transform: uppercase;
+
+    @media screen and ( max-width: $tapik-bp) {
+      font-size: 26px;
+    }
+  }
+  &--footer {
+    margin-bottom: 8px;
+    color: $white;
+    font-family: "HelveticaNeue";
+    font-size: 20px;
+    font-weight: 900;
+
+    @media screen and ( max-width: $tapik-bp) {
+      font-size: 14px;
+    }
+  }
+
+  &--privacy {
+    font-size: 30px;
+    font-weight: 700;
+
+    color: $black;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+}

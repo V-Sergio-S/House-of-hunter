@@ -1,0 +1,31 @@
+.logo {
+  width: 60px;
+  height: 65px;
+
+  cursor: pointer;
+  transition: fill .4s ease;
+
+  &--header {
+    @media screen and ( max-width: $laptop-bp) {
+      width: 40px;
+      height: 45px;
+      }
+      @media screen and ( max-width: $mobile-bp) {
+        width: 30px;
+        height: 35px;
+      }
+  }
+
+  &--footer {
+    width: 60px;
+    height: 65px;
+  }
+
+  &:hover {
+    path.logo__path {
+        fill: $visible-white;
+
+        transition: fill .4s ease;
+      }
+  }
+}

@@ -1,0 +1,28 @@
+.apartment {
+  padding: 67px 0 155px 90px;
+  overflow: hidden;
+}
+.apartment__cards {
+  margin: 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.apartment__card {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.apartment__img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 400px;
+  max-height: 250px;
+
+}

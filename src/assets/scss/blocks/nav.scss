@@ -1,0 +1,17 @@
+.nav {
+  padding: 15px 40px;
+  background: $visible-white;
+  
+  border-radius: 3px;
+
+  box-shadow: 7px 7px 23px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+
+  @media screen and ( max-width: $laptop-bp) {
+    padding: 11px 20px;
+    }
+
+  @media screen and ( max-width: $mobile-bp) {
+      padding: 7px;
+    }
+}

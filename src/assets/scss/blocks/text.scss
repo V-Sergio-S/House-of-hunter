@@ -1,0 +1,118 @@
+.text {
+
+  color: $white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+
+  &--front-page {
+    margin-top: 4px;
+
+    @media screen and ( max-width: $laptop-bp) {
+      font-size: 14px;
+    }
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 10px;
+    }
+  }
+
+  &--about {
+    width: 478px;
+    margin: 15px 22px 74px 0;
+    color: $black-service;
+
+    @media screen and ( max-width: $laptop-bp) {
+      width: 340px;
+    }
+  }
+
+  &--fauna-card {
+    padding-bottom: 15px;
+    color: $black-service;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  &--service {
+    padding: 27px 0;
+    color: $black-service;
+    font-size: 28px;
+    font-weight: 700;
+
+    @media screen and ( max-width: $mobile-bp) {
+      padding: 20px 0;
+      font-size: 20px;
+    }
+  }
+  &--description {
+    color: $black-service;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 12px;
+    }
+  }
+  &--residence {
+    width: 718px;
+    margin-top: 36px;
+
+    color: $black-service;
+    text-align: center;
+    font-size: 16px;
+
+    font-weight: 300;
+
+    @media screen and ( max-width: $mobile-bp) {
+      width: 296px;
+      font-size: 11px;
+    }
+  }
+  &--apartment {
+    color: $black-service;
+    font-size: 16px;
+    font-weight: 300;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 10px;
+    }
+  }
+  &--footer {
+    width: 262px;
+    height: 100px;
+    color: $white;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 300;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 10px;
+    }
+  }
+  &--cooperation {
+    color: $white;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 300;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 12px;
+    }
+  }
+
+  &--privacy {
+    margin: 10px 0;
+
+    font-family: Ubuntu, 'sans-serif';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%; /* 16.9px */
+
+    color: $black;
+
+    @media screen and ( max-width: $mobile-bp) {
+      font-size: 13px;
+    }
+  }
+}

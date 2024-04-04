@@ -1,0 +1,22 @@
+.phone {
+  text-decoration: none;
+
+  color: $white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+
+  transition: color .4s ease;
+
+  &:hover {
+    color: $hover-active;
+
+  }
+
+  @media screen and ( max-width: $laptop-bp) {
+    font-size: 16px;
+  }
+  @media screen and ( max-width: $mobile-bp) {
+    font-size: 12px;
+  }
+}

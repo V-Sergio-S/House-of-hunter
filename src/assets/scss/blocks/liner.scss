@@ -1,0 +1,34 @@
+.liner {
+  width: 100%;
+  padding: 0 0 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--top {
+    justify-content: end;
+  }
+  &--bottom {
+    justify-content: start;
+  }
+  &--service-top {
+    justify-content: end;
+  }
+  &--service-bottom {
+    padding: 14px 0 0 0;
+    justify-content: start;
+  }
+}
+.liner-svg {
+
+  &--top {
+    width: 657px;
+  }
+
+  &--bottom {
+    width: 262px;
+  }
+  &--service {
+    width: 575px;
+  }
+}

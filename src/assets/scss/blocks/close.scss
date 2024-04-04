@@ -1,0 +1,12 @@
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  transition: transform .3s ease-in;
+  cursor: pointer;
+  z-index: 5;
+
+  -webkit-tap-highlight-color: transparent;
+
+}

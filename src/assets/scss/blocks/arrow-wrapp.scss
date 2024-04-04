@@ -1,0 +1,23 @@
+.arrow-wrap {
+  // width: 100%;
+  // display: flex;
+  // justify-content: center;
+
+  // &--order-call {
+  //   position: absolute;
+  //   top: calc(50% - 20px);
+  //   z-index: 1;
+  // }
+}
+.arrow {
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+
+  &--prev {
+    padding-right: 8px;
+  }
+  &--next {
+    padding-left: 8px;
+  }
+}
